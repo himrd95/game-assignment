@@ -18,7 +18,6 @@ const Form = ({ handleClick }) => {
 		const {
 			target: { value, name },
 		} = e;
-		e;
 		value < 5 && alert('Please select the grid size greter than 5');
 		setPayload({ ...payload, [name]: value });
 	};
