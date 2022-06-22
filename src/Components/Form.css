@@ -1,0 +1,36 @@
+button {
+	width: 150px;
+	height: 40px;
+	border: none;
+	box-shadow: 0 0 10px gray;
+	border-radius: 5px;
+	background: green;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	margin-top: 20px;
+}
+button:hover {
+	background: rgb(0, 80, 0);
+}
+
+.form input {
+	width: 150px;
+	height: 35px;
+	box-shadow: 0 0 8px gray;
+	border: none;
+	padding: 0 10px;
+	margin: 5px 10px;
+	border-radius: 5px;
+	background: white;
+	outline: none;
+	font-weight: 550;
+	font-size: 16px;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+}
+.form input:hover {
+	border-bottom: 2px solid blue;
+	border-top: 2px solid blue;
+	box-shadow: 0 0 15px #5a5a5a;
+}
