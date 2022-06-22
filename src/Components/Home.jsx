@@ -197,7 +197,9 @@ const Home = () => {
 
 			{open && (
 				<div className='modal'>
-					<h2>{`Player ${turn === 2 ? 1 : 2} won the game`}</h2>
+					<h2>{`${
+						turn === 2 ? data.player1 : data.player2
+					} won the game`}</h2>
 					<button onClick={resetTheGame}>Restart</button>
 				</div>
 			)}
