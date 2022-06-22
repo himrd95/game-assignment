@@ -145,10 +145,10 @@ const Home = () => {
 						{turn === 1 ? "Player 1's turn" : "Player 2's turn"}
 					</h2>
 					<div className={cx('player1', turn === 1 && 'active')}>
-						<h3>Player 1</h3>
+						<h3>{data.player1}</h3>
 					</div>
 					<div className={cx('player2', turn === 2 && 'active')}>
-						<h3>Player 2</h3>
+						<h3>{data.player2}</h3>
 					</div>
 					<div>
 						<div className='coinEntry'>
