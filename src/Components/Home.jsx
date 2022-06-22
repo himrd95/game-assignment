@@ -150,7 +150,6 @@ const Home = () => {
 	};
 	return (
 		<div className='container'>
-			//
 			<div style={open ? { filter: 'blur(5px)' } : {}}>
 				<h2>{turn === 1 ? "Player 1's turn" : "Player 2's turn"}</h2>
 				<div className={cx('player1', turn === 1 && 'active')}>
